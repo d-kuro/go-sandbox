@@ -8,11 +8,11 @@ import (
 // 使用しない定数
 //const Url = "http://example.com"
 
-type Person struct {
-	name string
+//type Person struct {
+	//name string
 	// 使用されない
 	//age int
-}
+//}
 
 func main() {
 	//unconvert := "unconvert"
