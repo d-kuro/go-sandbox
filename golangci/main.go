@@ -6,24 +6,26 @@ import (
 )
 
 // 使用しない定数
-const Url = "http://example.com"
+//const Url = "http://example.com"
 
 type Person struct {
 	name string
 	// 使用されない
-	age int
+	//age int
 }
 
 func main() {
-	unconvert := "unconvert"
+	//unconvert := "unconvert"
 	// 意味のないキャスト
-	unconvert = string(unconvert)
+	//unconvert = string(unconvert)
 	
-	person := &Person{name:"hoge"}
-	fmt.Println(person.name)
+	//person := &Person{name:"hoge"}
+	//fmt.Println(person.name)
 	
 	// エラーチェックしない
-	returnError()
+	if err := returnError(); err != nil {
+		fmt.Println("error")
+	}
 }
 
 func returnError() error {
@@ -32,6 +34,6 @@ func returnError() error {
 }
 
 // 使われない関数
-func unused() {
-	fmt.Println("unused")
-}
+//func unused() {
+//	fmt.Println("unused")
+//}
