@@ -16,7 +16,7 @@ type Person struct {
 
 func main() {
 	// 意味のない代入
-	var ineffassign = "hoge"
+	ineffassign := "hoge"
 	ineffassign  = "ineffassign"
 	
 	fmt.Println(ineffassign)
