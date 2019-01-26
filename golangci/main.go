@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// 使用しない定数
+// 使用されない定数
 const Url = "http://example.com"
 
 type Person struct {
@@ -33,7 +33,7 @@ func returnError() error {
 	return errors.New("new error")
 }
 
-// 使われない関数
+// 使用されない関数
 func unused() {
 	fmt.Println("unused")
 }
